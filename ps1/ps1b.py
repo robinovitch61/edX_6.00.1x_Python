@@ -27,6 +27,7 @@ portion_saved = float(input('Enter the percent of your salary to save, as a deci
 total_cost = float(input('Enter the cost of your dream home: '))
 semi_annual_raise = float(input('Enter the semi­annual raise, as a decimal: ')) 
 
+
 # Initialize variables
 r = 0.04
 monthly_return_rate = r / 12
@@ -34,6 +35,7 @@ portion_down_payment = 0.25
 down_payment = portion_down_payment * total_cost
 monthly_salary = annual_salary / 12
 monthly_saved = monthly_salary * portion_saved
+
 
 # Calculations
 current_savings = 0
@@ -49,5 +51,6 @@ while(current_savings < down_payment):
         monthly_salary = annual_salary / 12
         monthly_saved = monthly_salary * portion_saved
     
+
 # Output
 print('Number of months: ' + str(months))
