@@ -25,7 +25,7 @@ annual_salary = float(input('Enter your starting salary: '))
 portion_saved = float(input('Enter the percent of your salary to save, as a decimal: '))
 total_cost = float(input('Enter the cost of your dream home: '))
 
-# Initialize state variables
+# Initialize variables
 r = 0.04
 monthly_return_rate = r / 12
 portion_down_payment = 0.25
