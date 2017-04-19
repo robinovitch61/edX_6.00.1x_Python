@@ -78,6 +78,7 @@ def get_guessed_word(secret_word, letters_guessed):
       which letters in secret_word have been guessed so far.
     '''
     masked_word = ''
+    
     for letter in secret_word:
         if letter not in letters_guessed:
             masked_word += '_'
@@ -94,8 +95,14 @@ def get_available_letters(letters_guessed):
     returns: string (of letters), comprised of letters that represents which letters have not
       yet been guessed.
     '''
-    # FILL IN YOUR CODE HERE AND DELETE "pass"
-    pass
+    alphabet = string.ascii_lowercase
+    letters_left = ''
+    
+    for letter in alphabet:
+        if letter not in letters_guessed:
+            letters_left += letter
+    
+    return letters_left
     
     
 
