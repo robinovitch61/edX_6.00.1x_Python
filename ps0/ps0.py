@@ -7,11 +7,9 @@ Created on Tue Apr 18 17:23:32 2017
 """
 import numpy as np
 
-print('Enter number x: ')
-x = input()
+x = input('Enter number x: ')
 
-print('Enter number y: ')
-y = input()
+y = input('Enter number y: ')
 
 print('\n' + 'X**y = ' + str(int(x)**int(y)))
 
