@@ -7,3 +7,4 @@ Created on Tue Apr 18 16:57:59 2017
 """
 
 print('Hello World')
+print('I like 6.00.1x!')
