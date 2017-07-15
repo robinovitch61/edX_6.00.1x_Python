@@ -1,0 +1,9 @@
+Handy Tips for Python from 6.001x:
+
+• print("print a variable's value: {0}, and another one: {1}".format(variable1, variable2))
+
+• Assert statements: raise an error unless something is true
+
+• Split and join methods on strings, helpful for when you know the general format of the string.
+
+• Generators: define a function and put <yield> statement(s) inside. Multiple "returns" made possible!
